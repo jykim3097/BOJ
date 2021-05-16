@@ -1,4 +1,4 @@
-package _7_String;
+package stepbystep.step7.string;
 import java.util.Scanner;
 
 public class _1_11654 {

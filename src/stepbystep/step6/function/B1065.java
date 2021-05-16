@@ -1,4 +1,4 @@
-package _6_function;
+package stepbystep.step6.function;
 import java.util.Scanner;
 
 public class B1065 {

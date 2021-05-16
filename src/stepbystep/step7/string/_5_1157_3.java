@@ -1,4 +1,4 @@
-package _7_String;
+package stepbystep.step7.string;
 
 import java.util.Arrays;
 import java.util.Scanner;
