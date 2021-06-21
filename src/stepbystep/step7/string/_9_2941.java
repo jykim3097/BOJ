@@ -7,8 +7,7 @@ import java.io.InputStreamReader;
 public class _9_2941 {
 
 	public static void main(String[] args) throws IOException {
-		
-<<<<<<< HEAD
+
 		/*
 		 * 크로아티아 알파벳
 		 * https://www.acmicpc.net/problem/2941
@@ -20,16 +19,12 @@ public class _9_2941 {
 		 * 
 		 * 공백의 갯수를 세고 문자의 갯수를 센다
 		 */
-=======
 		//https://www.acmicpc.net/problem/2941
->>>>>>> 05db1e60b9e37048b4f7577a6f30e2420910df11
-		
+
 		String[] cro = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String str = br.readLine();
-		
-<<<<<<< HEAD
 
 		for(int i=0; i<cro.length; i++) {
 			if(str.contains(cro[i])) {
@@ -45,7 +40,7 @@ public class _9_2941 {
 		}
 		
 		System.out.println(spaceCnt + wordCnt);
-=======
+
 		for(int i=0; i<cro.length; i++) {
 			if(str.contains(cro[i])) {
 				str = str.replace(cro[i], "  ");
@@ -53,6 +48,5 @@ public class _9_2941 {
 		}
 
 		System.out.println(str);
->>>>>>> 05db1e60b9e37048b4f7577a6f30e2420910df11
 	}
 }
