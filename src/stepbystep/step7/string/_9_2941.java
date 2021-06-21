@@ -19,7 +19,6 @@ public class _9_2941 {
 		 * 
 		 * 공백의 갯수를 세고 문자의 갯수를 센다
 		 */
-		//https://www.acmicpc.net/problem/2941
 
 		String[] cro = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 		
